@@ -80,6 +80,8 @@ header.active {
 /* 로고 기준 컨테이너 */
 #hero-logo {
     position: relative;
+    width: 360px;
+    height: auto;
     transform: translateY(-40px);
 }
 /* hero-logo 안의 모든 이미지 공통 */
