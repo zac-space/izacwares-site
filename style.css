@@ -1,8 +1,13 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #0f0f0f;
+    background: #606060;
     color: #fff;
+    transition: background 0.6s ease;
+}
+
+body.scrolled {
+    background: #0f0f0f; /* 예: 검정 → 살짝 그레이 */
 }
 
 /* 헤더 기본 */
