@@ -15,7 +15,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 18px 40px;
+    padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,9 +33,15 @@ header.active {
 }
 
 .header-logo {
-    height: 28px;    /* 원하는 크기로 조절 (24~40px 추천) */
-    width: auto;
-    display: block;
+    height: 28px;
+}
+
+.header-inner {
+    position: relative;
+    width: 100%;
+    padding: 18px 40px;
+    display: flex;
+    align-items: center;
 }
 
 .header-menu {
