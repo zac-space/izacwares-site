@@ -73,14 +73,14 @@ header.active {
 #hero {
     position: relative;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* 로고 기준 컨테이너 */
 #hero-logo {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 360px;               /* 기준 크기 */
-    transform: translate(-50%, -50%) translateY(-130px);
+    position: relative;
+    transform: translateY(-40px);
 }
 /* hero-logo 안의 모든 이미지 공통 */
 #hero-logo img {
