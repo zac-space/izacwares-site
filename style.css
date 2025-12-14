@@ -40,19 +40,15 @@ header.active {
     display: block;
 }
 
-
 .header-inner {
-    position: relative;
-    width: 100%;
-    padding: 18px 40px;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
     align-items: center;
+    padding: 18px 40px;
 }
 
 .header-menu {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    justify-self: center;
     display: flex;
     gap: 32px;
 }
