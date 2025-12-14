@@ -86,17 +86,14 @@ header.active {
 #hero-assemble {
     z-index: 1;
 }
-#hero-assemble img {
-    width: 360px;   /* 고정 */
-    height: auto;
-}
 
 #hero-w {
     z-index: 2;
-    transform: translate(-50%, -50%) translate(18px, 28px);
+    transform: translate(-50%, -50%);
 }
+#hero-assemble img,
 #hero-w img {
-    width: 72px;    /* W 기준 크기 */
+    width: 360px;   /* 반응형으로 바꾸고 싶으면 나중에 */
     height: auto;
 }
 
