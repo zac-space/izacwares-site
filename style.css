@@ -39,6 +39,9 @@ header.active {
 }
 
 .header-menu a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     margin-left: 24px;
     text-decoration: none;
     color: #ccc;
