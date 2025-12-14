@@ -38,10 +38,13 @@ header.active {
     display: block;
 }
 
-.header-menu a {
+.header-menu {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.header-menu a {
     margin-left: 24px;
     text-decoration: none;
     color: #ccc;
