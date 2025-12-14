@@ -87,7 +87,10 @@ header.active {
 }
 
 .logo-symbol {
-    width: 140px;   /* 만든 심볼 넣으면 됨 */
+    width: 40vh;
+    max-width: 420px;
+    min-width: 300px;
+    height: auto;
     margin-bottom: 12px;
 }
 
