@@ -87,18 +87,16 @@ header.active {
     z-index: 1;
 }
 #hero-assemble img {
-    width: 40vh;
-    max-width: 420px;
-    min-width: 300px;
+    width: 360px;   /* 고정 */
     height: auto;
 }
 
 #hero-w {
     z-index: 2;
-    transform: translate(-50%, -50%) translate(0px, 0px);
+    transform: translate(-50%, -50%) translate(18px, 28px);
 }
 #hero-w img {
-    width: 80px; /* 임시. 나중에 맞추면서 조절 */
+    width: 72px;    /* W 기준 크기 */
     height: auto;
 }
 
@@ -108,6 +106,7 @@ header.active {
 }
 
 /* PHILOSOPHY */
+/*
 #philosophy {
     position: fixed;
     top: 50%;
@@ -128,6 +127,7 @@ header.active {
     opacity: 1;
     transform: translateY(0);
 }
+*/
 
 /* CONTENT SECTIONS */
 .content-section {
