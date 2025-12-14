@@ -81,7 +81,8 @@ header.active {
 #hero-logo {
     position: relative;
     width: 360px;
-    transform: none;
+    aspect-ratio: 1 / 1;
+    transform: translateY(-18%);
 }
 /* hero-logo 안의 모든 이미지 공통 */
 #hero-logo img {
