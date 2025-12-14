@@ -32,6 +32,7 @@ header.active {
 .header-logo {
     display: flex;
     align-items: center;
+    justify-self: start;
 }
 
 .header-log-img {
@@ -42,7 +43,7 @@ header.active {
 
 .header-inner {
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
     padding: 18px 40px;
 }
