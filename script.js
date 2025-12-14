@@ -1,16 +1,24 @@
 const header = document.getElementById("main-header");
-const heroLogo = document.getElementById("hero-logo");
+const heroAssemble = document.getElementById("hero-assemble");
+const wDark = document.querySelector(".w-dark");
+const wLight = document.querySelector(".w-light");
 
 window.addEventListener("scroll", () => {
     if (window.scrollY > 30) {
-        header.classList.add("active");
-        heroLogo.classList.add("hide");
+        // 배경 전환
         document.body.classList.add("scrolled");
-        philosophyText.classList.add("show");
+        // 헤더 표시
+        header.classList.add("active");
+        // 중앙 로고 제거
+        heroAssemble.style.opacity = "0";
+        // W 색상 전환
+        wDark.style.opacity = "0";
+        wLight.style.opacity = "1";
     } else {
-        header.classList.remove("active");
-        heroLogo.classList.remove("hide");
         document.body.classList.remove("scrolled");
-        philosophyText.classList.remove("show");
+        header.classList.remove("active");
+        heroAssemble.style.opacity = "1";
+        wDark.style.opacity = "1";
+        wLight.style.opacity = "0";
     }
 });
