@@ -80,7 +80,7 @@ header.active {
     left: 50%;
     top: 50%;
     width: 360px;               /* 기준 크기 */
-    transform: translate(-50%, -50%) translateY(-40px);
+    transform: translate(-50%, -50%) translateY(-110px);
 }
 /* hero-logo 안의 모든 이미지 공통 */
 #hero-logo img {
