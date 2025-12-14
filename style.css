@@ -71,7 +71,8 @@ header.active {
 
 /* HERO */
 #hero {
-    min-height: 100svh;
+    position: relative;
+    height: calc(100svh - 60px);
     display: flex;
     align-items: center;
     justify-content: center;
