@@ -97,6 +97,15 @@ header.active {
     height: auto;
 }
 
+/* 초기 상태 */
+.w-dark {
+    opacity: 1;
+}
+
+.w-light {
+    opacity: 0;
+}
+
 .logo-text {
     font-size: 32px;
     letter-spacing: 3px;
