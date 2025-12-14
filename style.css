@@ -36,7 +36,7 @@ header.active {
     padding-left: 40px;
 }
 
-.header-log-img {
+.header-logo-img {
     height: 28px;
     width: auto;
     display: block;
@@ -59,44 +59,47 @@ header.active {
     display: flex;
     gap: 32px;
 }
-
 .header-menu a {
     text-decoration: none;
     color: #ccc;
     font-size: 16px;
     transition: 0.2s;
 }
-
 .header-menu a:hover {
     color: #fff;
 }
 
-/* HERO (가운데 큰 로고) */
+/* NEW HERO (W + Assemble_No_W) */
 #hero {
+    position: relative;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-#hero-logo {
-    text-align: center;
-    opacity: 1;
-    transform: translateY(0);
-    transition: 0.6s ease;
+#hero-w,
+#hero-assemble {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#hero-logo.hide {
-    opacity: 0;
-    transform: translateY(-40px);
+#hero-assemble {
+    z-index: 1;
 }
-
-.logo-symbol {
+#hero-assemble img {
     width: 40vh;
     max-width: 420px;
     min-width: 300px;
     height: auto;
-    margin-bottom: 12px;
+}
+
+#hero-w {
+    z-index: 2;
+    transform: translate(-50%, -50%) translate(0px, 0px);
+}
+#hero-w img {
+    width: 80px; /* 임시. 나중에 맞추면서 조절 */
+    height: auto;
 }
 
 .logo-text {
@@ -112,7 +115,6 @@ header.active {
     transform: translate(-50%, -50%);
     pointer-events: none;
 }
-
 .philosophy-text {
     font-size: clamp(20px, 3vw, 36px);
     letter-spacing: 1.5px;
@@ -122,7 +124,6 @@ header.active {
     text-align: center;
     color: #fff;
 }
-
 .philosophy-text.show {
     opacity: 1;
     transform: translateY(0);
