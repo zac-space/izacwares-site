@@ -6,9 +6,11 @@ window.addEventListener("scroll", () => {
         header.classList.add("active");
         heroLogo.classList.add("hide");
         document.body.classList.add("scrolled");
+        philosophyText.classList.add("show");
     } else {
         header.classList.remove("active");
         heroLogo.classList.remove("hide");
         document.body.classList.remove("scrolled");
+        philosophyText.classList.remove("show");
     }
 });
