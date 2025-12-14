@@ -15,10 +15,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 0;    
     background: rgba(96, 96, 96, 0); /* 606060 + 알파 0 */
     transition: 0.4s ease;
     opacity: 0; /* 초기에는 숨겨진 상태 */
@@ -35,6 +32,13 @@ header.active {
 .header-logo {
     height: 28px;
 }
+
+.header-log-img {
+    height: 28px;
+    width: auto;
+    display: block;
+}
+
 
 .header-inner {
     position: relative;
