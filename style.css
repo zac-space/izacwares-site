@@ -71,8 +71,7 @@ header.active {
 
 /* HERO */
 #hero {
-    position: relative;
-    height: 100vh;
+    min-height: 100svh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,8 +80,7 @@ header.active {
 #hero-logo {
     position: relative;
     width: 360px;
-    height: auto;
-    transform: translateY(-40px);
+    transform: none;
 }
 /* hero-logo 안의 모든 이미지 공통 */
 #hero-logo img {
