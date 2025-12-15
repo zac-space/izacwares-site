@@ -75,6 +75,7 @@ header.active {
 #hero-logo {
     position: relative;
     width: 360px;
+    height: 360px;
     aspect-ratio: 1 / 1;
     transform: translate(0, 0);
     transition: transform 0.8s ease;
@@ -118,7 +119,7 @@ header.active {
 #hero-text {
     position: absolute;
     left: 50%;
-    top: 71.1%;
+    bottom: 28.9%;
     transform: translate(6%, 0);
     z-index: 3;
 }
