@@ -4,7 +4,7 @@ const wDark = document.querySelector(".w-dark");
 const wLight = document.querySelector(".w-light");
 const heroLogo = document.getElementById("hero-logo");
 const heroText = document.getElementById("hero-text");
-const GAP = 24;
+const GAP = 36;
 
 window.addEventListener("scroll", () => {
     const scrollY = window.scrollY;
