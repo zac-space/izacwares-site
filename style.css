@@ -79,10 +79,6 @@ header.active {
     transform: translate(0, 0);
     transition: transform 0.8s ease;
 }
-/* 상태 3: W 왼쪽 아래 이동 */
-#heroW.w-moved {
-    transform: translate(-200px, 220px);
-}
 /* hero-logo 안의 모든 이미지 공통 */
 #hero-logo img {
     position: absolute;
@@ -111,8 +107,9 @@ header.active {
     font-size: 32px;
     letter-spacing: 3px;
 }
-.w-anchor {
-    position: relative;
+/* 상태 3: W 왼쪽 아래 이동 */
+#hero-w.w-moved {
+    transform: translate(-200px, 220px);
 }
 #hero-text {
   position: absolute;
