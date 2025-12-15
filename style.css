@@ -115,7 +115,7 @@ header.active {
     transition: transform 0.8s ease;
 }
 #hero-w.w-moved {
-    transform: translate(-215px, 220px);
+    transform: translate(-220px, 220px);
 }
 #hero-text {
     position: absolute;
@@ -128,7 +128,7 @@ header.active {
 }
 #hero-text.show {
     opacity: 1;
-    transition-delay: 0.8s;
+    transition-delay: 0.6s;
 }
 .hero-text-rest {
     font-size: 32px;       /* ← 지금은 이게 정답 */
