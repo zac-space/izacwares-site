@@ -126,7 +126,6 @@ header.active {
 }
 #hero-text.show {
     opacity: 1;
-    transform: translate(16px, -50%) translateX(0);
 }
 .hero-text-rest {
     font-size: 32px;       /* ← 지금은 이게 정답 */
