@@ -4,7 +4,6 @@ const wDark = document.querySelector(".w-dark");
 const wLight = document.querySelector(".w-light");
 const heroLogo = document.getElementById("hero-logo");
 const heroText = document.getElementById("hero-text");
-const GAP = 24;
 
 window.addEventListener("scroll", () => {
     const scrollY = window.scrollY;
@@ -29,9 +28,6 @@ window.addEventListener("scroll", () => {
     else heroLogo.classList.remove("w-moved");
     // STEP 3
     if (scrollY > 200) {
-        const r = heroLogo.getBoundingClientRect();
-        heroText.style.left = (r.right + GAP) + "px";
-        heroText.style.top  = (r.top + r.height / 2) + "px";
         heroText.classList.add("show");
     }
     else {
