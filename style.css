@@ -81,7 +81,7 @@ header.active {
 }
 /* 상태 3: W 왼쪽 아래 이동 */
 #hero-logo.w-moved {
-    transform: translate(-180px, 220px);
+    transform: translate(-200px, 220px);
 }
 /* hero-logo 안의 모든 이미지 공통 */
 #hero-logo img {
@@ -113,7 +113,7 @@ header.active {
 }
 #hero-text {
     position: absolute;
-    left: calc(50% - 180px + 360px); /* W 오른쪽 기준 */
+    left: calc(50% - 120px + 360px);
     top: calc(50% + 220px);
     
     opacity: 0;
@@ -124,6 +124,11 @@ header.active {
 #hero-text.show {
     opacity: 1;
     transform: translateX(0);
+}
+.hero-text-rest {
+  font-size: 28px;      /* 28 → 30 → 32 중에서 눈으로 결정 */
+  letter-spacing: 0.8px;
+  white-space: nowrap;
 }
 
 /* PHILOSOPHY */
