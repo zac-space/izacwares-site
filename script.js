@@ -3,6 +3,7 @@ const heroAssemble = document.querySelector(".logo-assemble");
 const wDark = document.querySelector(".w-dark");
 const wLight = document.querySelector(".w-light");
 const heroLogo = document.getElementById("hero-logo");
+const heroText = document.getElementById("hero-text");
 
 window.addEventListener("scroll", () => {
     const scrollY = window.scrollY;
