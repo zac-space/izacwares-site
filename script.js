@@ -29,4 +29,11 @@ window.addEventListener("scroll", () => {
     else{
         heroLogo.classList.remove("w-moved");
     }
+    // STEP 3
+    if (scrollY > 200) {
+        heroText.classList.add("show");
+    }
+    else {
+        heroText.classList.remove("show");
+    }
 });
