@@ -3,6 +3,7 @@ const heroAssemble = document.querySelector(".logo-assemble");
 const wDark = document.querySelector(".w-dark");
 const wLight = document.querySelector(".w-light");
 const heroLogo = document.getElementById("hero-logo");
+const heroW = document.getElementById("hero-w");
 const heroText = document.getElementById("hero-text");
 
 window.addEventListener("scroll", () => {
@@ -24,8 +25,8 @@ window.addEventListener("scroll", () => {
         wLight.style.opacity = "0";
     }
     // Step-2
-    if (scrollY > 120) heroLogo.classList.add("w-moved");
-    else heroLogo.classList.remove("w-moved");
+    if (scrollY > 120) heroW.classList.add("w-moved");
+    else heroW.classList.remove("w-moved");
     // STEP 3
     if (scrollY > 200) {
         heroText.classList.add("show");
