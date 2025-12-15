@@ -115,7 +115,7 @@ header.active {
     transition: transform 0.8s ease;
 }
 #hero-w.w-moved {
-    transform: translate(-230px, 220px);
+    transform: translate(-215px, 220px);
 }
 #hero-text {
     position: absolute;
