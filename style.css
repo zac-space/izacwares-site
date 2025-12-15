@@ -113,7 +113,7 @@ header.active {
 }
 #hero-text {
     position: absolute;
-    left: calc(50% - 120px + 360px);
+    left: calc(50% - 200px + 360px + 24);
     top: calc(50% + 220px);
     
     opacity: 0;
