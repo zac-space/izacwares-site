@@ -111,6 +111,18 @@ header.active {
     font-size: 32px;
     letter-spacing: 3px;
 }
+#hero-text {
+  position: absolute;
+  left: calc(100% + 28px);
+  top: 62%;
+  transform: translateY(-50%);
+  z-index: 3;
+}
+.hero-text-rest {
+  font-size: 32px;       /* ← 지금은 이게 정답 */
+  letter-spacing: 0.9px;
+  white-space: nowrap;
+}
 
 /* PHILOSOPHY */
 /*
