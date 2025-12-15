@@ -126,7 +126,7 @@ header.active {
     font-size: 28px;      /* 28 → 30 → 32 중에서 눈으로 결정 */
     letter-spacing: 0.8px;
     white-space: nowrap;
-    padding-left: 36px;
+    margin-left: 20px;
 }
 
 /* PHILOSOPHY */
