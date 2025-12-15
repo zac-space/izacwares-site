@@ -118,7 +118,7 @@ header.active {
 #hero-text {
     position: absolute;
     left: 50%;
-    bottom: 28.9%;
+    top: 71.1%;
     transform: translate(6%, 0);
     z-index: 3;
 }
