@@ -82,12 +82,12 @@ header.active {
     position: relative;
     width: 360px;
     aspect-ratio: 1 / 1;
-    transform: none;
+    transform: translate(0, 0);
+    transition: transform 0.8s ease;
 }
 /* 상태 3: W 왼쪽 아래 이동 */
 #hero-logo.w-moved {
     transform: translate(-180px, 220px);
-    transition: transform 0.8s ease;
 }
 /* hero-logo 안의 모든 이미지 공통 */
 #hero-logo img {
