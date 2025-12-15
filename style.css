@@ -111,6 +111,9 @@ header.active {
     font-size: 32px;
     letter-spacing: 3px;
 }
+.w-anchor {
+    position: relative;
+}
 #hero-text {
   position: absolute;
   left: 100%;
