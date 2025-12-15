@@ -23,7 +23,7 @@ window.addEventListener("scroll", () => {
         wLight.style.opacity = "0";
     }
     // Step-2
-    if (scrollY > 120 && !wMoved) {
+    if (scrollY > 120) {
         heroLogo.classList.add("w-moved");
     }
     else{
