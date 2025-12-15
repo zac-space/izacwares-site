@@ -111,23 +111,6 @@ header.active {
     font-size: 32px;
     letter-spacing: 3px;
 }
-#hero-text {
-    position: fixed;
-    opacity: 0;
-    transform: translateX(-20px);
-    transition: opacity 0.6s ease, transform 0.6s ease;
-    z-index: 3;
-}
-#hero-text.show {
-    opacity: 1;
-    transform: translateX(0);
-}
-.hero-text-rest {
-    font-size: 28px;      /* 28 → 30 → 32 중에서 눈으로 결정 */
-    letter-spacing: 0.8px;
-    white-space: nowrap;
-    margin-left: 20px;
-}
 
 /* PHILOSOPHY */
 /*
