@@ -80,7 +80,7 @@ header.active {
     transition: transform 0.8s ease;
 }
 /* 상태 3: W 왼쪽 아래 이동 */
-#hero-logo.w-moved {
+#heroW.w-moved {
     transform: translate(-200px, 220px);
 }
 /* hero-logo 안의 모든 이미지 공통 */
