@@ -107,7 +107,9 @@ header.active {
     font-size: 32px;
     letter-spacing: 3px;
 }
-/* 상태 3: W 왼쪽 아래 이동 */
+#hero-w {
+  position: relative;
+}
 #hero-w.w-moved {
     transform: translate(-200px, 220px);
 }
@@ -117,6 +119,10 @@ header.active {
   top: 50%;
   transform: translate(16px, -50%);
   z-index: 3;
+}
+#hero-text.show {
+  opacity: 1;
+  transform: translate(16px, -50%) translateX(0);
 }
 .hero-text-rest {
   font-size: 32px;       /* ← 지금은 이게 정답 */
