@@ -19,6 +19,9 @@ window.addEventListener("scroll", () => {
         heroAssemble.style.opacity = "1";
         wDark.style.opacity = "1";
         wLight.style.opacity = "0";
+
+        wMoved = false;
+        heroLogo.classList.remove("w-moved");
     }
     if (scrollY > 120 && !wMoved) {
         heroLogo.classList.add("w-moved");
