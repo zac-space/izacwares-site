@@ -108,26 +108,28 @@ header.active {
     letter-spacing: 3px;
 }
 #hero-w {
-  position: relative;
+    position: relative;
+    transform: translate(0, 0);
+    transition: transform 0.8s ease;
 }
 #hero-w.w-moved {
     transform: translate(-200px, 220px);
 }
 #hero-text {
-  position: absolute;
-  left: 100%;
-  top: 50%;
-  transform: translate(16px, -50%);
-  z-index: 3;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(16px, -50%);
+    z-index: 3;
 }
 #hero-text.show {
-  opacity: 1;
-  transform: translate(16px, -50%) translateX(0);
+    opacity: 1;
+    transform: translate(16px, -50%) translateX(0);
 }
 .hero-text-rest {
-  font-size: 32px;       /* ← 지금은 이게 정답 */
-  letter-spacing: 0.9px;
-  white-space: nowrap;
+    font-size: 32px;       /* ← 지금은 이게 정답 */
+    letter-spacing: 0.9px;
+    white-space: nowrap;
 }
 
 /* PHILOSOPHY */
