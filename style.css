@@ -137,23 +137,22 @@ header.active {
     white-space: nowrap;
 }
 
-#about {
-    opacity: 0;
-    transform: translateY(60px);
-    transition: opacity 0.8s ease, transform 0.8s ease;
-}
-#about.show {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-
 /* CONTENT SECTIONS */
 .content-section {
     padding: 140px 40px;
     max-width: 900px;
     margin: auto;
+
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
+
+.content-section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 h2 {
     margin-bottom: 10px;
