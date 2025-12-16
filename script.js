@@ -5,13 +5,15 @@ const wLight = document.querySelector(".w-light");
 const heroW = document.getElementById("hero-w");
 const heroText = document.getElementById("hero-text");
 const about = document.getElementById("about");
+const games = document.getElementById("games");
 
 let wMoved = false;
 
 const STEP1 = 30;
 const STEP2_ON  = 120;
 const STEP2_OFF = 80;
-const STEP3 = 512;
+const STEP3 = 512;   // About
+const STEP4 = 920;   // Games
 
 window.addEventListener("scroll", () => {
     const scrollY = window.scrollY;
@@ -44,13 +46,21 @@ window.addEventListener("scroll", () => {
         heroText.classList.remove("show");
         wMoved = false;
     }
-
-    /* STEP 3 */
+    
+    /* STEP 3 : About */
     if (scrollY > STEP3) {
         about.classList.add("show");
     } 
     else {
         about.classList.remove("show");
     }
-    
+
+    /* STEP 4 : Games */
+    if (scrollY > STEP4) {
+        games.classList.add("show");
+    }
+    else {
+        games.classList.remove("show");
+    }
+        
 });
