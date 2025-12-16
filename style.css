@@ -70,6 +70,7 @@ header.active {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 160px;
 }
 /* 로고 기준 컨테이너 */
 #hero-logo {
@@ -136,29 +137,16 @@ header.active {
     white-space: nowrap;
 }
 
-/* PHILOSOPHY */
-/*
-#philosophy {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-}
-.philosophy-text {
-    font-size: clamp(20px, 3vw, 36px);
-    letter-spacing: 1.5px;
+#about {
     opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.6s ease, transform 0.6s ease;
-    text-align: center;
-    color: #fff;
+    transform: translateY(60px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
-.philosophy-text.show {
+#about.show {
     opacity: 1;
     transform: translateY(0);
 }
-*/
+
 
 /* CONTENT SECTIONS */
 .content-section {
