@@ -11,7 +11,7 @@ let wMoved = false;
 const STEP1 = 30;
 const STEP2_ON  = 120;
 const STEP2_OFF = 80;
-const STEP3 = 260;
+const STEP3 = 360;
 
 window.addEventListener("scroll", () => {
     const scrollY = window.scrollY;
