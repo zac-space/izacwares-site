@@ -4,12 +4,14 @@ const wDark = document.querySelector(".w-dark");
 const wLight = document.querySelector(".w-light");
 const heroW = document.getElementById("hero-w");
 const heroText = document.getElementById("hero-text");
+const about = document.getElementById("about");
 
 let wMoved = false;
 
 const STEP1 = 30;
 const STEP2_ON  = 120;
 const STEP2_OFF = 80;
+const STEP3 = 260;
 
 window.addEventListener("scroll", () => {
     const scrollY = window.scrollY;
@@ -42,4 +44,13 @@ window.addEventListener("scroll", () => {
         heroText.classList.remove("show");
         wMoved = false;
     }
+
+    /* STEP 3 */
+    if (scrollY > STEP3) {
+        about.classList.add("show");
+    } 
+    else {
+        about.classList.remove("show");
+    }
+    
 });
