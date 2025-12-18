@@ -147,12 +147,31 @@ header.active {
     transform: translateY(60px);
     transition: opacity 0.8s ease, transform 0.8s ease;
 }
-
 .content-section.show {
     opacity: 1;
     transform: translateY(0);
 }
 
+/* ABOUT: 섹션 자체의 시각 중심을 가운데로 */
+#about {
+  max-width: none;              /* .content-section의 900px 제한을 About에서 해제 */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;          /* 블록 자체를 가운데로 */
+  text-align: center;           /* 텍스트도 중앙(하지만 핵심은 위 align-items) */
+}
+/* About의 “선언 블록” 폭을 따로 잡아서 시각 중심 안정화 */
+#about h2,
+#about p {
+  width: min(760px, 100%);      /* 필요하면 680~820 사이로 조절 */
+  margin-left: auto;
+  margin-right: auto;
+}
+/* p의 기본 마진 때문에 중심이 어색해지는 거 방지 */
+#about p {
+  margin-top: 0;
+}
 
 h2 {
     margin-bottom: 10px;
