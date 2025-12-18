@@ -113,7 +113,7 @@ header.active {
     width: 360px;
     height: 360px;
     transform: translate(0, 0);
-    transition: transform 0.8s ease;
+    transition: transform 0.8s ease, opacity 0.8s ease;
 }
 #hero-w.w-moved {
     transform: translate(-220px, 220px);
