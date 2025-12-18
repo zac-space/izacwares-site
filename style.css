@@ -118,6 +118,12 @@ header.active {
 #hero-w.w-moved {
     transform: translate(-220px, 220px);
 }
+/* W 로고 페이드 아웃 */
+#hero-w.fade-out {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
 #hero-text {
     position: absolute;
     left: 50%;
