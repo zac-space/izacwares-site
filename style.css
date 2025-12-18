@@ -199,10 +199,12 @@ header.active {
 }
 /* 본문 줄 단위 */
 .about-lines span {
-  display: block;
-  opacity: 0;
-  transform: translateY(14px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+    display: block;
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    line-height: 1.55;     /* 문장 내부 호흡 */
+    margin-bottom: 6px;   /* 문장 사이 간격 */
 }
 /* 순차 등장 */
 #about.show .about-lines span {
