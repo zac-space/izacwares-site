@@ -51,10 +51,12 @@ window.addEventListener("scroll", () => {
     if (scrollY > STEP3) {
         about.classList.add("show");
         heroText.classList.add("fade-out");
+        heroW.classList.add("fade-out");
     } 
     else {
         about.classList.remove("show");
         heroText.classList.remove("fade-out");
+        heroW.classList.remove("fade-out");
     }
 
     /* STEP 4 : Games */
