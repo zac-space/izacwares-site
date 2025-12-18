@@ -136,6 +136,12 @@ header.active {
     letter-spacing: 0.9px;
     white-space: nowrap;
 }
+/* HERO 슬로건 페이드 아웃 */
+#hero-text.fade-out {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
 
 /* CONTENT SECTIONS */
 .content-section {
