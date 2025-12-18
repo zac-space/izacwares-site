@@ -168,6 +168,15 @@ header.active {
   margin-left: auto;
   margin-right: auto;
 }
+/* About 타이틀 간격 조절 (h1 = izacWares, h2 = About) */
+#about h1 {
+  margin: 0 0 26px 0;     /* 위는 0, 아래는 본문과 간격 */
+  line-height: 1.05;
+}
+#about h2 {
+  margin: 0 0 6px 0;      /* 아래 간격만 조금 */
+  line-height: 1.1;
+}
 /* p의 기본 마진 때문에 중심이 어색해지는 거 방지 */
 #about p {
   margin-top: 0;
