@@ -50,9 +50,11 @@ window.addEventListener("scroll", () => {
     /* STEP 3 : About */
     if (scrollY > STEP3) {
         about.classList.add("show");
+        heroText.classList.add("fade-out");
     } 
     else {
         about.classList.remove("show");
+        heroText.classList.remove("fade-out");
     }
 
     /* STEP 4 : Games */
