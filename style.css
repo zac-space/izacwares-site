@@ -15,15 +15,22 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 0;    
-    background: rgba(96, 96, 96, 0); /* 606060 + 알파 0 */
-    transition: 0.4s ease;
-    opacity: 0; /* 초기에는 숨겨진 상태 */
+
+    background: rgba(96, 96, 96, 1);
+    backdrop-filter: blur(10px);
+
+    transform: scaleY(0);
+    transform-origin: bottom;
+
+    opacity: 0.99;                 /* 완전 0 ❌ */
+    transition:
+        transform 0.35s ease,
+        opacity 0.25s ease;
+
     pointer-events: none;
 }
 header.active {
-    background: rgba(96,96,96,1);    /* 606060 + 알파 1 */
-    backdrop-filter: blur(10px);
+    transform: scaleY(1);
     opacity: 1;
     pointer-events: auto;
 }
