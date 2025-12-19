@@ -5,7 +5,7 @@ const wLight = document.querySelector(".w-light");
 const heroW = document.getElementById("hero-w");
 const heroText = document.getElementById("hero-text");
 const about = document.getElementById("about");
-const games = document.getElementById("games");
+//const games = document.getElementById("games");
 
 let wMoved = false;
 
@@ -61,10 +61,10 @@ window.addEventListener("scroll", () => {
 
     /* STEP 4 : Games */
     if (scrollY > STEP4) {
-        games.classList.add("show");
+        //games.classList.add("show");
     }
     else {
-        games.classList.remove("show");
+        //games.classList.remove("show");
     }
         
 });
