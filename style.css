@@ -22,7 +22,7 @@ header {
     transform: scaleY(0);
     transform-origin: bottom;
 
-    opacity: 0.99;                 /* 완전 0 ❌ */
+    opacity: 0.99;
     transition:
         transform 0.35s ease,
         opacity 0.25s ease;
