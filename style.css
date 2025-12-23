@@ -1,7 +1,6 @@
 html {
     -webkit-text-size-adjust: 100%;
 }
-
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -13,6 +12,10 @@ body {
     body.scrolled {
         background: #0f0f0f; /* 예: 검정 → 살짝 그레이 */
     }
+html, body {
+    overflow-x: hidden;
+}
+
 
 /* 헤더 기본 */
 header {
