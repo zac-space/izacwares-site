@@ -1,4 +1,6 @@
-const header = document.getElementById("main-header");
+document.addEventListener("DOMContentLoaded", () => {
+    
+    const header = document.getElementById("main-header");
 const heroAssemble = document.querySelector(".logo-assemble");
 const wDark = document.querySelector(".w-dark");
 const wLight = document.querySelector(".w-light");
@@ -69,4 +71,6 @@ app.addEventListener("scroll", () => {
         //games.classList.remove("show");
     }
         
+});
+    
 });
