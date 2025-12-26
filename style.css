@@ -18,7 +18,7 @@ html, body {
 }
 #app {
     width: 100vw;
-    height: 100svh;
+    height: 100dvh;
     overflow-x: hidden; /* 가로 완전 차단 */
     overflow-y: auto;   /* 세로 스크롤은 여기서만 */
 }
