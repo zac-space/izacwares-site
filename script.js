@@ -6,6 +6,8 @@ const heroW = document.getElementById("hero-w");
 const heroText = document.getElementById("hero-text");
 const about = document.getElementById("about");
 //const games = document.getElementById("games");
+const app = document.getElementById("app");
+
 
 let wMoved = false;
 
@@ -15,8 +17,8 @@ const STEP2_OFF = 80;
 const STEP3 = 512;   // About
 const STEP4 = 920;   // Games
 
-window.addEventListener("scroll", () => {
-    const scrollY = window.scrollY;
+app.addEventListener("scroll", () => {
+    const scrollY = app.scrollTop;
 
     /* STEP 1 */
     if (scrollY > STEP1) {
