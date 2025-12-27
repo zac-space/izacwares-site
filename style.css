@@ -170,7 +170,7 @@ header {
 .hero-text-rest {
     font-size: 32px; /* ← 지금은 이게 정답 */
     letter-spacing: 0.9px;
-    white-space: normal;
+    white-space: nowrap;
 }
 /* HERO 슬로건 페이드 아웃 */
 #hero-text.fade-out {
