@@ -202,8 +202,7 @@ header {
         transform-origin: top center;
     }
     .about-lines span {
-        white-space: normal;
-        word-break: keep-all;
+        white-space: nowrap;
     }
 }
 
