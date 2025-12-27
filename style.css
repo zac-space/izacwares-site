@@ -207,7 +207,9 @@ header {
         white-space: nowrap;
     }
     #about p {
-        width: fit-content;
+        width: fit-content !important;
+        margin-left: auto;
+        margin-right: auto;
     }
     #about h2,
     #about p {
