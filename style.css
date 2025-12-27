@@ -209,6 +209,10 @@ header {
     #about p {
         width: fit-content;
     }
+    #about h2,
+    #about p {
+        width: fit-content;
+    }
 }
 
 @media (max-width: 360px) {
