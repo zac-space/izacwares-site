@@ -198,24 +198,21 @@ header {
         transform: translate(5%, 0);
     }
     #about {
-        transform: scale(0.86);
         transform-origin: top center;
         align-items: center;
+        text-align: center;
+    }
+    .about-inner {
+        transform: scale(0.86);
+        transform-origin: top center;
+    }
+    .about-lines {
+        display: inline-block;
         text-align: center;
     }
     .about-lines span {
         white-space: nowrap;
     }
-    #about p {
-        width: fit-content !important;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #about h2,
-    #about p {
-        width: fit-content;
-    }
-
 
     /*
     body {
@@ -264,45 +261,44 @@ header {
     align-items: center; /* 블록 자체를 가운데로 */
     text-align: center; /* 텍스트도 중앙(하지만 핵심은 위 align-items) */
 }
-    /* About의 “선언 블록” 폭을 따로 잡아서 시각 중심 안정화 */
-    #about h2,
-    #about p {
-        width: min(760px, 100%); /* 필요하면 680~820 사이로 조절 */
-        margin-left: auto;
-        margin-right: auto;
-    }
-    /* About 타이틀 간격 조절 (h1 = izacWares, h2 = About) */
-    #about h1 {
-        margin: 0 0 26px 0; /* 위는 0, 아래는 본문과 간격 */
-        line-height: 1.05;
-    }
+/* About의 “선언 블록” 폭을 따로 잡아서 시각 중심 안정화 */
+#about h2,
+#about p {
+    width: min(760px, 100%); /* 필요하면 680~820 사이로 조절 */
+    margin-left: auto;
+    margin-right: auto;
+}
+/* About 타이틀 간격 조절 (h1 = izacWares, h2 = About) */
+#about h1 {
+    margin: 0 0 26px 0; /* 위는 0, 아래는 본문과 간격 */
+    line-height: 1.05;
+}
+#about h2 {
+    margin: 0 0 6px 0; /* 아래 간격만 조금 */
+    line-height: 1.1;
+}
+/* p의 기본 마진 때문에 중심이 어색해지는 거 방지 */
+#about p {
+    margin-top: 0;
+}
+/* About 타이틀 등장 */
+#about h1,
+#about h2 {
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
 
-    #about h2 {
-        margin: 0 0 6px 0; /* 아래 간격만 조금 */
-        line-height: 1.1;
-    }
-    /* p의 기본 마진 때문에 중심이 어색해지는 거 방지 */
-    #about p {
-        margin-top: 0;
-    }
-    /* About 타이틀 등장 */
-    #about h1,
-    #about h2 {
-        opacity: 0;
-        transform: translateY(12px);
-        transition: opacity 0.6s ease, transform 0.6s ease;
-    }
+#about.show h1 {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.15s;
+}
 
-    #about.show h1 {
-        opacity: 1;
-        transform: translateY(0);
-        transition-delay: 0.15s;
-    }
-
-    #about.show h2 {
-        opacity: 1;
-        transform: translateY(0);
-    }
+#about.show h2 {
+    opacity: 1;
+    transform: translateY(0);
+}
 /* 본문 줄 단위 */
 .about-lines span {
     display: block;
