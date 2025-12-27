@@ -213,6 +213,11 @@ header {
     #about p {
         width: fit-content;
     }
+
+
+    body {
+    background: red !important;
+  }
 }
 
 @media (max-width: 360px) {
