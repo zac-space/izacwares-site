@@ -194,7 +194,7 @@ header {
         letter-spacing: 0.3px;
     }
     #hero-text {
-        transform: translate(20%, 0);
+        transform: translate(5%, 0);
     }
 }
 
