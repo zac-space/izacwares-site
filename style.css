@@ -179,6 +179,35 @@ header {
 }
 
 @media (max-width: 390px) {
+    /* 헤더 바 안의 grid를 세로 정렬로 바꿈 */
+    .header-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 0;
+    }
+    /* 로고를 가운데로 */
+    .header-logo {
+        padding-left: 0;
+        justify-self: auto;
+        justify-content: center;
+    }
+    .header-logo-img {
+        margin: 0 auto;
+    }
+    /* 오른쪽 여백용 spacer는 모바일에서 제거 */
+    .header-spacer {
+        display: none;
+    }
+    /* About 메뉴를 가운데 + 아래로 */
+    .header-menu {
+        justify-self: auto;
+        justify-content: center;
+        gap: 16px; /* 필요하면 더 줄여도 됨 */
+    }
+
+    
     #hero-logo {
         width: 300px;
         transform: scale(0.86);
