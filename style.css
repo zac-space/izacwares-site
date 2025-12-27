@@ -181,6 +181,7 @@ header {
 @media (max-width: 390px) {
     #hero-logo {
         width: 300px;
+        transform: scale(0.9);
     }
     #hero-w {
         width: 300px;
