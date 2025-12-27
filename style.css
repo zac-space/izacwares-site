@@ -195,7 +195,7 @@ header {
     }
     .header-logo-img {
         margin: 0 auto;
-        height: 13px;
+        height: 15px;
         width: auto;
     }
     /* 오른쪽 여백용 spacer는 모바일에서 제거 */
