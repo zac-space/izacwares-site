@@ -206,6 +206,9 @@ header {
     .about-lines span {
         white-space: nowrap;
     }
+    #about p {
+        width: fit-content;
+    }
 }
 
 @media (max-width: 360px) {
