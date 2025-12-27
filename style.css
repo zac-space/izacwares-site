@@ -194,10 +194,7 @@ header {
         letter-spacing: 0.3px;
     }
     #hero-text {
-        left: 50%;
-        transform: translate(-50%, 0);
-        width: 100%;
-        text-align: center;
+        transform: translate(25%, 0);
     }
 }
 
