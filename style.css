@@ -186,6 +186,9 @@ header {
         width: 300px;
         height: 300px;
     }
+    #hero-w.w-moved {
+        transform: translate(-140px, 140px);
+    }
     .hero-text-rest {
         font-size: 24px;
         letter-spacing: 0.3px;
