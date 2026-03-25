@@ -29,7 +29,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(96, 96, 96, 1);
+    background: #ced1d4;
     backdrop-filter: blur(10px);
     transform: scaleY(0);
     transform-origin: bottom;
