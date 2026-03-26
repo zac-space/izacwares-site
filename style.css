@@ -23,6 +23,23 @@ html, body {
     overflow-y: auto;   /* 세로 스크롤은 여기서만 */
 }
 
+#app::-webkit-scrollbar {
+  width: 8px;
+}
+
+#app::-webkit-scrollbar-track {
+  background: #241f1d;
+}
+
+#app::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 10px;
+}
+
+#app::-webkit-scrollbar-thumb:hover {
+  background: #111;
+}
+
 
 /* 헤더 기본 */
 header {
